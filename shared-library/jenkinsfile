@@ -1,0 +1,15 @@
+#!groovy
+@Library('shared-library') _ 
+
+
+    def configMap= [
+        application: "nodejsVM",
+	component: "catalouge"
+	]
+	if (! env.BRANCH_NAME.equalsIgnoreCase('main)){
+	    pipelineDecission.decidepipeline(configMap)
+	    }
+	else{
+            echo "This is PRODUCTION, deal with CR Process"
+	    }
+
