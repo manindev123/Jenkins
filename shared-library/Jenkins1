@@ -3,17 +3,17 @@ pipeline{
        stages {
             stage('Get the version') {
                 steps {
-                    script {}
+                    echo 'Hello World'
                 }
             }
             stage('Download dependncies'){
                 steps {
-                    script{}
+                    echo 'Hello'
                 }
             }
             stage('sonar scan'){
                 steps{
-                    script{}
+                    echo 'Hello World'
                 }
             }
   }
