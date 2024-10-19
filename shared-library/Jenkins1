@@ -1,14 +1,9 @@
 pipeline{
-  agent{
-       node{
-           }
-       }
+  agent{}
        stages {
             stage('Get the version') {
                 steps {
-                    script {
-                        
-                    }
+                    script {}
                 }
             }
             stage('Download dependncies'){
