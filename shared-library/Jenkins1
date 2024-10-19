@@ -11,12 +11,12 @@ pipeline{
                     }
                 }
             }
-            stage(Download dependncies){
+            stage('Download dependncies'){
                 steps {
                     script{}
                 }
             }
-            stage(sonar scan){
+            stage('sonar scan'){
                 steps{
                     script{}
                 }
