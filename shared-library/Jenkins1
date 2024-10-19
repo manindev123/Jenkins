@@ -1,0 +1,26 @@
+pipeline{
+  agent{
+       node{
+        label 
+           }
+       }
+       stages {
+            stage('Get the version') {
+                steps {
+                    script {
+                        
+                    }
+                }
+            }
+            stage(Download dependncies){
+                steps {
+                    script{}
+                }
+            }
+            stage(sonar scan){
+                steps{
+                    script{}
+                }
+            }
+  }
+}
