@@ -1,4 +1,5 @@
 pipeline{
+     agent{}
        stages {
             stage('Get the version') {
                 steps {
